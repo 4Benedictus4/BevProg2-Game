@@ -1,0 +1,33 @@
+Welcome to CLASH!
+
+Creator: Tasi Benedek József - XPH49V - tasbe
+
+Instructions:
+
+At the beginning of each game, the program will ask on console about how many players do you want to play with (1-4).
+
+Left click on unit/building to select it. Right click on tile/enemy to move/attack.
+Left clicking on a garrisoned unit will select the unit, while Middle clicking on a garrison will select the building 'behind' the garrisoned unit.
+
+Rules are simple:
+Eliminate your enemies by destroying all their units and buildings.
+
+Each unit has defined stats, can move and attack once per turn. They are able to do both in one turn, for example: move in range, then attack immediately.
+Archers and Buildings have a range of 2 tiles, Warriors have 1.
+All units can retaliate to melee attacks.
+If an unit kills another in melee, and has movepoints left, it will move to the deceased unit's place.
+Archers get +1 range if standing on a hill.
+
+It is possible to swap two friendly units, if they have movepoints left.
+
+Castles can spawn units, or call Merchants to improve their gold yield, for a price, of course.
+Can only spawn units if there is noone in the garrison.
+
+Garrisoned units are almost shielded from siege attacks, and grant bonuses to the Castle they are garrisoned in. The bonus varies depending on the type of the unit.
+However, if the Castle is destroyed, the garrisoned unit dies.
+
+If there's only one player remaining, press enter to start a new game (the program will call the winner's name, and ask about the number of players again)!
+
+This is a playable, prototype version of the game. Every feature is working sound, but the game is still in development. New features will be added soon!
+(Thus the previous versions seen on github can contain elements the final version does not. The final version is chopped down, not to contain unwanted info for the task at hand.
+Work will be continued from the full version with the yet-to-be completed parts.)
