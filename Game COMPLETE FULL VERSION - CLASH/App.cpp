@@ -204,7 +204,7 @@ void App::Run(App &A){
                 if(c->IsActive()){
                     int cx=c->get_pos()["x"];
                     int cy=c->get_pos()["y"];
-                    Unit* Garr=new Unit("w");                                                       /// GIVING IT A BASE VALUE MAY HAVE SOLVED TEH INVINCIBLE UNIT PHENOMENA
+                    Unit* Garr=new Unit("w");                                                       
                     for(Controlled* c2 : CX){                                                       /// COMBAT
                         bool isonB=false;
                         if(c2->OnMouse(posX, posY)){
@@ -226,7 +226,7 @@ void App::Run(App &A){
                                             }
                                         }
                                     }
-                                    if(c2!=Garr){   ///deleted: !isonB &&  -  SOLVED last castle's invincibility problem  -  INVESTIGATE for cause & further bugs!  -  could be source of invincible unit phenomena
+                                    if(c2!=Garr){   
                                         c2->take_damage(c->get_stats()["atk"]);
                                     }
                                     if(c->get_stats()["r"]<=1 && c2!=Garr){                                 /// RETALIATION
